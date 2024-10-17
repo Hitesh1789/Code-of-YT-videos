@@ -1,4 +1,4 @@
-//Java code of Linear Search
+//Java Code of Linear Search
 class HelloWorld {
     public static void main(String[] args) {
         int[] arr = {1,23,445 ,67}; //Given arr
@@ -19,10 +19,9 @@ class HelloWorld {
     }
 }
 
-//C++ code of Linear Search
+//C++ Code of Linear Search
 #include <iostream>
 using namespace std;
-//Jai Shree Ram
 int main() {
     int arr[] = {1,23,445 ,67}; //Given arr
     int target = 23; //target we need to check whehter trrget is present in array(ar) or not
