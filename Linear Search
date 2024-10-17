@@ -1,0 +1,44 @@
+//Java code of Linear Search
+class HelloWorld {
+    public static void main(String[] args) {
+        int[] arr = {1,23,445 ,67}; //Given arr
+        int target = 23; //target we need to check whehter trrget is present in array(arr) or not
+        int idx =-1;
+        boolean flag = false;
+        
+        for(int i=0 ;i<arr.length;i++){
+            if(arr[i]==target){
+                flag=true;
+                idx=i;
+                break;
+            }
+        }
+        
+        if(flag==true) System.out.println("Target is present in array at index " + idx);
+        else  System.out.println("Target is not present in array");
+    }
+}
+
+//C++ code of Linear Search
+#include <iostream>
+using namespace std;
+//Jai Shree Ram
+int main() {
+    int arr[] = {1,23,445 ,67}; //Given arr
+    int target = 23; //target we need to check whehter trrget is present in array(ar) or not
+    int idx =-1;
+    bool flag = false;
+    int n = sizeof(arr)/sizeof(int);
+        
+    for(int i=0 ;i<n;i++){
+        if(arr[i]==target){
+            flag=true;
+            idx=i;
+            break;
+        }
+    }
+        
+    if(flag==true) cout<<"Target is present in array at index "<<idx;
+    else  cout<<"Target is not present in array";
+    return 0;
+}
